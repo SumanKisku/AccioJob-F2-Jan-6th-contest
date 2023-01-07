@@ -6,11 +6,11 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
-PrintDeveloperswithMap();
-PrintDeveloperbyForEach();
-addData();
-removeAdmin();
-concatenateArray();
+// PrintDeveloperswithMap();
+// PrintDeveloperbyForEach();
+// addData();
+// removeAdmin();
+// concatenateArray();
 
 function PrintDeveloperswithMap() {
   //Write your code here
@@ -34,7 +34,7 @@ function addData() {
   //Write your code here
   let newEmployee = {id:4,name:"susan",age:"20",profession:"intern"};
   arr.push(newEmployee);
-  console.log(newEmployee);
+  console.log(arr);
 }
 
 function removeAdmin() {
